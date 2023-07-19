@@ -25,6 +25,7 @@ h2{
     text-align: center;
     background-color: rgb(211, 206, 211);
     border-radius: 20px;
+    height:120px;
     color: black;
     margin-bottom:40px;
     margin-left: 25px;
@@ -32,8 +33,7 @@ h2{
 }
 h1{
     margin-bottom: 1px;
-    padding-top: 8px;
-    font-size:50px;
+    padding-top: 20px;
 }
 html{
     background-color:whitesmoke ;
