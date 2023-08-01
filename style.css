@@ -1,50 +1,86 @@
+body{
+    background-color:#f1f1f1; 
+}
+#Heading{
+    margin-left: 3%;
+    margin-top:1%;
+    text-align: center;
+    background-color: #c3caf3;
+    border-radius: 20px;
+    width: 94%;
+    border: 1px solid #a7aed1;
+    box-shadow:2px 2px 5px rgb(122, 125, 126);
+    position: relative;
+}
 img{
-    border-radius: 50%;
-    height: 110px;
-    width: 110px;
-    float:left;
-    margin-left:5px;
-    margin-top:5px;
+    border-radius:50%;
+    display: inline-block;
+    position: absolute;
+    left:1%;
+    top:4%;
+    height:92%;
+    max-width:15%;
+    z-index:0;
+}
+h1{
+    margin-bottom:3px;
+    padding-top:0px;
+    margin-top:1%;
+    display:inline-block;
+}
+#underhead{
+    color: #353537;
+    margin-bottom:1%;
+    display: inline-block;
+    position: relative;
+   text-align: center;
+    z-index:1;
 }
 .links{
-    color: black;
+    color:#353537;
     text-decoration: none;
 }
 .link{
-    color: white;
+    color: rgb(64, 12, 123);
     text-decoration: none;
 }
 h2{
     margin-top:5px;
     font-size:30px;
-    background-color: rgb(101,98, 98);
-    border-radius:10px;
+    background-color:rgb(84, 107, 182);
+    border-radius:15px;
     padding:6px;
+    color:rgb(240, 242, 239);
 }
-#Heading{
-    text-align: center;
-    background-color: rgb(211, 206, 211);
-    border-radius: 20px;
-    color: black;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-h1{
-    margin-bottom: 1px;
-    padding-top: 20px;
-}
-html{
-    background-color:whitesmoke ;
-    color: white;
+h3{
+    margin-bottom:0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .education{
-    background-color: rgb(50, 53, 50);;
-    border-radius: 10px;
+    background-color:rgb(212, 227, 242); 
+    border-radius: 25px;
     padding:10px;
     margin-left: 25px;
     margin-right:25px;
-    margin-bottom:15px;
+    margin-bottom:20px;
+    box-shadow:2px 2px 7px rgb(147, 147, 152);
+    border:2px solid rgb(173, 195, 218);
 }
 #ed{
     margin-top:40px;
+}
+@media(any-hover:hover){
+    a:hover{
+        color:blueviolet;
+    }
+}
+@media (width <=600px){
+    #Heading{
+        font-size:0.7em;
+    }
+}
+@media(width<=450px){
+    img{
+        display: none;
+    }
 }
